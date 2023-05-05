@@ -1,0 +1,19 @@
+//Estrutura padrão, importando as bibliotecas do react
+
+import { View, Text, Image } from "react-native";
+import React from "react";
+
+
+function App (){
+  return(
+  <View>
+    <Text style={{fontSize:50 }}>Vasco da gama!</Text>
+
+    <Image 
+    source={ require('./img/vasco.jpeg') }
+    style={{ width: 500, height: 250}}/> 
+     </View>
+  );
+}
+
+export default App;
